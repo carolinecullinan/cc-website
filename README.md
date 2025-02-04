@@ -1,1 +1,1 @@
-Personal website for my art portfolio.
+Personal website for my art portfolio

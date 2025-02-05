@@ -12,6 +12,28 @@
 
   // Contains ALL the details for ALL pieces in each series
   const seriesData = {
+
+    'heterotopia-systems-of-order': {
+      title: 'Heterotopia: Systems of Order',
+      pieces: [
+        {
+          title: 'Heterotopia: Systems of Order',
+          year: '2024',
+          dimensions: {
+            en: '91.4 x 122 cm (36 x 48 inches)',
+            fr: '91,4 x 122 cm (36 x 48 pouces)',
+            it: '91,4 x 122 cm (36 x 48 inches)'
+          },
+          medium: {
+            en: 'Acrylic on canvas',
+            fr: 'Acrylique sur toile',
+            it: 'Acrilico su tela'
+          },
+          imageUrl: '/images/heterotopia-systems-of-order-2024-36x48-inch-acrylic-canvas.jpg'
+        }
+      ]
+    },
+
     'threshold-configurations': {
       title: 'Threshold Configurations',
       pieces: [

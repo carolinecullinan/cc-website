@@ -5,13 +5,22 @@
   
   const artworkSeries = [
     {
+      id: 'heterotopia-systems-of-order',
+      title: 'Heterotopia: Systems of Order',
+      year: '2024',
+      description: 'An exploration of heterotopic space through systematic abstraction, where multiple ordering principles simultaneously construct and destabilize perceptual hierarchies. Through expansive geometric arrangements and calculated chromatic relationships, these works investigate how the mind creates parallel systems of order within psychological space, reflecting the complex interplay between structured thought and cognitive variance.',
+      coverImage: '/images/heterotopia-systems-of-order-2024-36x48-inch-acrylic-canvas.jpg',
+      totalPieces: 1
+    },
+  
+    {
       id: 'threshold-configurations',
       title: 'Threshold Configurations',
       year: '2024',
       description: 'An exploration of psychological thresholds through densely configured geometric networks, where each element exists in a state of contained isolation while participating in larger systematic patterns. Through precise chromatic relationships and methodical mark-making, these threshold configurations examine how the mind creates boundaries between discrete psychological states while maintaining cohesive perceptual experience.',
       coverImage: '/images/threshold-configuration-1-2024-48x36-inch-acrylic-canvas.jpg',
       totalPieces: 2
-    },
+    }
     // Add more series here as needed
   ];
 </script>

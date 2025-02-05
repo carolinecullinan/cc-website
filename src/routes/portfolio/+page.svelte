@@ -8,7 +8,7 @@
       id: 'threshold-configurations',
       title: 'Threshold Configurations',
       year: '2024',
-      description: 'Exploring transitional spaces and boundaries',
+      description: 'An exploration of psychological thresholds through densely configured geometric networks, where each element exists in a state of contained isolation while participating in larger systematic patterns. Through precise chromatic relationships and methodical mark-making, these threshold configurations examine how the mind creates boundaries between discrete psychological states while maintaining cohesive perceptual experience.',
       coverImage: '/images/threshold-configuration-1-2024-48x36-inch-acrylic-canvas.jpg',
       totalPieces: 2
     },

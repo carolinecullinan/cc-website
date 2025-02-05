@@ -9,6 +9,7 @@
   $: t = translations[$currentLanguage];
   let activeImage = null;
 
+
   // Contains ALL the details for ALL pieces in each series
   const seriesData = {
     'threshold-configurations': {
@@ -17,15 +18,31 @@
         {
           title: 'Threshold Configuration I',
           year: '2024',
-          dimensions: '122 x 91.4 cm (48 x 36 inches)',
-          medium: 'Acrylic on canvas',
+          dimensions: {
+            en: '122 x 91.4 cm (48 x 36 inches)',
+            fr: '122 x 91,4 cm (48 x 36 pouces)',
+            it: '122 x 91,4 cm (48 x 36 inches)'
+          },
+          medium: {
+            en: 'Acrylic on canvas',
+            fr: 'Acrylique sur toile',
+            it: 'Acrilico su tela'
+          },
           imageUrl: '/images/threshold-configuration-1-2024-48x36-inch-acrylic-canvas.jpg'
         },
         {
           title: 'Threshold Configuration II',
           year: '2024',
-          dimensions: '122 x 91.4 cm (48 x 36 inches)',
-          medium: 'Acrylic on canvas',
+          dimensions: {
+            en: '122 x 91.4 cm (48 x 36 inches)',
+            fr: '122 x 91,4 cm (48 x 36 pouces)',
+            it: '122 x 91,4 cm (48 x 36 inches)'
+          },
+          medium: {
+            en: 'Acrylic on canvas',
+            fr: 'Acrylique sur toile',
+            it: 'Acrilico su tela'
+          },
           imageUrl: '/images/threshold-configuration-2-2024-48x36-inch-acrylic-canvas.jpg'
         }
       ]
@@ -68,8 +85,8 @@
           </div>
           <div class="text-center">
             <h2 class="font-display text-lg">{piece.title}, {piece.year}</h2>
-            <p class="text-gray-600 mt-2">{piece.dimensions}</p>
-            <p class="text-gray-600">{piece.medium}</p>
+            <p class="text-gray-600 mt-2">{piece.dimensions[$currentLanguage]}</p>
+            <p class="text-gray-600">{piece.medium[$currentLanguage]}</p>
           </div>
         </div>
       {/each}
@@ -89,6 +106,11 @@
           alt={activeImage.title}
           class="max-w-full max-h-[90vh] object-contain"
         />
+        <div class="absolute bottom-0 left-0 right-0 text-white text-center pb-4">
+          <p class="text-lg">{activeImage.title}, {activeImage.year}</p>
+          <p class="text-sm">{activeImage.dimensions[$currentLanguage]}</p>
+          <p class="text-sm">{activeImage.medium[$currentLanguage]}</p>
+        </div>
         <button 
           class="absolute top-4 right-4 text-white hover:text-gray-300 text-2xl"
           on:click|stopPropagation={() => activeImage = null}

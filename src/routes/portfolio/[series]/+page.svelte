@@ -68,6 +68,93 @@
           imageUrl: '/images/threshold-configuration-2-2024-48x36-inch-acrylic-canvas.jpg'
         }
       ]
+    },
+
+    'liminal-variations': {
+      title: 'Liminal Variations',
+      pieces: [
+        {
+          title: 'Liminal Variations I',
+          year: '2024',
+          dimensions: {
+            en: '50.8 x 50.8 cm (20 x 20 inches)',
+            fr: '50,8 x 50,8 cm (20 x 20 pouces)',
+            it: '50,8 x 50,8 cm (20 x 20 pollici)'
+          },
+          medium: {
+            en: 'Acrylic on canvas',
+            fr: 'Acrylique sur toile',
+            it: 'Acrilico su tela'
+          },
+          imageUrl: '/images/liminal-variations-1-2024-20x20-inch-acrylic-canvas.jpg'
+        },
+        {
+          title: 'Liminal Variations II',
+          year: '2024',
+          dimensions: {
+            en: '50.8 x 50.8 cm (20 x 20 inches)',
+            fr: '50,8 x 50,8 cm (20 x 20 pouces)',
+            it: '50,8 x 50,8 cm (20 x 20 pollici)'
+          },
+          medium: {
+            en: 'Acrylic on canvas',
+            fr: 'Acrylique sur toile',
+            it: 'Acrilico su tela'
+          },
+          imageUrl: '/images/liminal-variations-2-2024-20x20-inch-acrylic-canvas.jpg'
+        }
+      ]
+    },
+
+    'liminal-studies': {
+      title: 'Liminal Studies',
+      pieces: [
+        {
+          title: 'Liminal Studies I',
+          year: '2024',
+          dimensions: {
+            en: '61 x 61 cm (24 x 24 inches)',
+            fr: '61 x 61 cm (24 x 24 pouces)',
+            it: '61 x 61 cm (24 x 24 pollici)'
+          },
+          medium: {
+            en: 'Acrylic on canvas',
+            fr: 'Acrylique sur toile',
+            it: 'Acrilico su tela'
+          },
+          imageUrl: '/images/liminal-studies-1-2024-24x24-inch-acrylic-canvas.jpg'
+        },
+        {
+          title: 'Liminal Studies II',
+          year: '2024',
+          dimensions: {
+            en: '61 x 61 cm (24 x 24 inches)',
+            fr: '61 x 61 cm (24 x 24 pouces)',
+            it: '61 x 61 cm (24 x 24 pollici)'
+          },
+          medium: {
+            en: 'Acrylic on canvas',
+            fr: 'Acrylique sur toile',
+            it: 'Acrilico su tela'
+          },
+          imageUrl: '/images/liminal-studies-2-2024-24x24-inch-acrylic-canvas.jpg'
+        },
+        {
+          title: 'Liminal Studies III',
+          year: '2024',
+          dimensions: {
+            en: '61 x 61 cm (24 x 24 inches)',
+            fr: '61 x 61 cm (24 x 24 pouces)',
+            it: '61 x 61 cm (24 x 24 pollici)'
+          },
+          medium: {
+            en: 'Acrylic on canvas',
+            fr: 'Acrylique sur toile',
+            it: 'Acrilico su tela'
+          },
+          imageUrl: '/images/liminal-studies-3-2024-24x24-inch-acrylic-canvas.jpg'
+        }
+      ]
     }
   };
 

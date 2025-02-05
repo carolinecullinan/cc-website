@@ -20,6 +20,24 @@
       description: 'An exploration of psychological thresholds through densely configured geometric networks, where each element exists in a state of contained isolation while participating in larger systematic patterns. Through precise chromatic relationships and methodical mark-making, these threshold configurations examine how the mind creates boundaries between discrete psychological states while maintaining cohesive perceptual experience.',
       coverImage: '/images/threshold-configuration-1-2024-48x36-inch-acrylic-canvas.jpg',
       totalPieces: 2
+    },
+
+    {
+      id: 'liminal-variations',
+      title: 'Liminal Variations',
+      year: '2024',
+      description: 'A methodical exploration of psychological equilibrium through balanced geometric compositions, where carefully calibrated forms investigate the structured aspects of liminal experience. Through harmonious spatial arrangements and rhythmic dotted boundaries, these variations examine how the mind creates ordered frameworks to process transitional psychological states, revealing patterns within apparent disorder.',
+      coverImage: '/images/liminal-variations-1-2024-20x20-inch-acrylic-canvas.jpg',
+      totalPieces: 2
+    },
+
+    {
+      id: 'liminal-studies',
+      title: 'Liminal Studies',
+      year: '2024',
+      description: 'An examination of liminal psychological states through varied scalar relationships, where geometric forms navigate the space between isolation and connection. The works employ rhythmic dotted boundaries and deliberate spatial hierarchies to explore how the mind processes transitional experiences, creating visual metaphors for the psychological territory between discrete mental states.',
+      coverImage: '/images/liminal-studies-1-2024-24x24-inch-acrylic-canvas.jpg',
+      totalPieces: 3
     }
     // Add more series here as needed
   ];

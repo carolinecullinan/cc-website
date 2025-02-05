@@ -26,11 +26,11 @@
             {t.portfolio}
           </a>
           <a 
-            href="/about" 
-            class="text-sm hover:text-gray-600 transition-colors"
-          >
-            {t.about}
-          </a>
+          href="/statement" 
+          class="text-sm hover:text-gray-600 transition-colors {$page.url.pathname === '/statement' ? 'text-gray-600' : ''}"
+        >
+          {t.statement}
+        </a>
           <a 
             href="/contact" 
             class="text-sm hover:text-gray-600 transition-colors"

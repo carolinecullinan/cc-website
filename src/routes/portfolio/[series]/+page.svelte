@@ -9,7 +9,11 @@
   $: t = translations[$currentLanguage];
   let activeImage = null;
 
-
+ // Calculate grid classes based on number of pieces
+ $: gridClasses = series?.pieces?.length === 1 ? 'max-w-2xl mx-auto' : 
+                   series?.pieces?.length === 2 ? 'grid grid-cols-1 md:grid-cols-2 gap-12 max-w-4xl mx-auto' :
+                   'grid grid-cols-1 md:grid-cols-3 gap-12 max-w-6xl mx-auto';
+                   
   // Contains ALL the details for ALL pieces in each series
   const seriesData = {
 
@@ -315,8 +319,8 @@
       </p>
     </div>
 
-    <!-- Artwork Grid -->
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-24">
+    <!-- Artwork Grid (dynamically centered based on number of pieces)-->
+    <div class={gridClasses}>
       {#each series.pieces as piece}
         <div class="artwork-container">
           <div 
@@ -353,11 +357,11 @@
           alt={activeImage.title}
           class="max-w-full max-h-[90vh] object-contain"
         />
-        <div class="absolute bottom-0 left-0 right-0 text-white text-center pb-4">
+        <!-- <div class="absolute bottom-0 left-0 right-0 text-white text-center pb-4">
           <p class="text-lg">{activeImage.title}, {activeImage.year}</p>
           <p class="text-sm">{activeImage.dimensions[$currentLanguage]}</p>
           <p class="text-sm">{activeImage.medium[$currentLanguage]}</p>
-        </div>
+        </div> -->
         <button 
           class="absolute top-4 right-4 text-white hover:text-gray-300 text-2xl"
           on:click|stopPropagation={() => activeImage = null}

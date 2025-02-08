@@ -14,7 +14,7 @@
       <div class="flex items-center justify-between h-16">
         <!-- Logo/Name -->
         <a href="/" class="text-base tracking-wide hover:text-gray-600 transition-colors">
-          CAROLINE CULLINAN
+          TEXT TEXT TEXT
         </a>
 
         <div class="hidden md:flex items-center space-x-8">

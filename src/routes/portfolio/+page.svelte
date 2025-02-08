@@ -73,14 +73,14 @@
 <Layout>
   <PageTransition>
     <div class="max-w-6xl mx-auto px-6 py-12">
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-20">
         {#each artworkSeries as series}
           <a href="/portfolio/{series.id}" class="group">
-            <div class="mb-4">
+            <div class="relative aspect-square mb-3">
               <ArtworkImage
                 src={series.coverImage}
                 alt={series.title}
-                className="aspect-[4/3]"
+                className="absolute inset-0 w-full h-full object-cover"
               />
             </div>
             <div class="opacity-80 group-hover:opacity-100 transition-opacity">

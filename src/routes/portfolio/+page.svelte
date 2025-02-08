@@ -35,9 +35,36 @@
       id: 'liminal-studies',
       title: 'Liminal Studies',
       year: '2024',
-      description: 'An examination of liminal psychological states through varied scalar relationships, where geometric forms navigate the space between isolation and connection. The works employ rhythmic dotted boundaries and deliberate spatial hierarchies to explore how the mind processes transitional experiences, creating visual metaphors for the psychological territory between discrete mental states.',
+      description: 'An exploration of liminal psychological states through varied scalar relationships, where geometric forms navigate the space between isolation and connection. The works employ rhythmic dotted boundaries and deliberate spatial hierarchies to explore how the mind processes transitional experiences, creating visual metaphors for the psychological territory between discrete mental states.',
       coverImage: '/images/liminal-studies-1-2024-24x24-inch-acrylic-canvas.jpg',
       totalPieces: 3
+    },
+
+    {
+      id: 'spatial-dialectics-materiality-and-void',
+      title: 'Spatial Dialectics: Materiality and Void',
+      year: '2024',
+      description: 'An exploration of psychological containment through the dialectical relationship between material presence and spatial void, where geometric forms negotiate territories of compression and release. Through intersecting vertical and horizontal elements, these works investigate how the mind constructs architectural frameworks to process traumatic space, revealing the tension between structural order and psychological entropy.',
+      coverImage: '/images/spatial-dialectics-materiality-and-void-1-2024-40x36-inch-acrylic-canvas.jpg',
+      totalPieces: 3
+    },
+
+    {
+      id: 'spatial-dialectics-chromatic-tensions',
+      title: 'Spatial Dialectics: Chromatic Tensions',
+      year: '2024',
+      description: 'An exploration of psychological containment through the dialectical relationship between chromatic intensity and spatial organization, where color interactions negotiate territories of emotional resonance and systematic order. Through strategic placement of warm and cool frequencies, these works investigate how the mind constructs frameworks to process affective experience, revealing the tension between chromatic energy and psychological structure.',
+      coverImage: '/images/spatial-dialectics-chromatic-tensions-1-2024-40x36-inch-acrylic-canvas.jpg',
+      totalPieces: 3
+    },
+
+    {
+      id: 'micro-paradigms',
+      title: 'Micro Paradigms',
+      year: '2024',
+      description: 'An exploration of psychological containment through the dialectical relationship between microscopic order and perceptual density, where intimately scaled forms negotiate territories of systematic processing and cognitive compression. Through concentrated geometric arrangements at reduced scale, these works investigate how the mind constructs organizational paradigms to process overwhelming complexity, revealing the tension between structured pattern and psychological saturation.',
+      coverImage: '/images/micro-paradigms-1-2024-8x8-inch-acrylic-canvas.jpg',
+      totalPieces: 2
     }
     // Add more series here as needed
   ];

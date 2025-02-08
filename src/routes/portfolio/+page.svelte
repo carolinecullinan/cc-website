@@ -56,16 +56,16 @@
       description: 'An exploration of psychological containment through the dialectical relationship between chromatic intensity and spatial organization, where color interactions negotiate territories of emotional resonance and systematic order. Through strategic placement of warm and cool frequencies, these works investigate how the mind constructs frameworks to process affective experience, revealing the tension between chromatic energy and psychological structure.',
       coverImage: '/images/spatial-dialectics-chromatic-tensions-1-2024-40x36-inch-acrylic-canvas.jpg',
       totalPieces: 3
-    },
-
-    {
-      id: 'micro-paradigms',
-      title: 'Micro Paradigms',
-      year: '2024',
-      description: 'An exploration of psychological containment through the dialectical relationship between microscopic order and perceptual density, where intimately scaled forms negotiate territories of systematic processing and cognitive compression. Through concentrated geometric arrangements at reduced scale, these works investigate how the mind constructs organizational paradigms to process overwhelming complexity, revealing the tension between structured pattern and psychological saturation.',
-      coverImage: '/images/micro-paradigms-1-2024-8x8-inch-acrylic-canvas.jpg',
-      totalPieces: 2
     }
+
+    // {
+    //   id: 'micro-paradigms',
+    //   title: 'Micro Paradigms',
+    //   year: '2024',
+    //   description: 'An exploration of psychological containment through the dialectical relationship between microscopic order and perceptual density, where intimately scaled forms negotiate territories of systematic processing and cognitive compression. Through concentrated geometric arrangements at reduced scale, these works investigate how the mind constructs organizational paradigms to process overwhelming complexity, revealing the tension between structured pattern and psychological saturation.',
+    //   coverImage: '/images/micro-paradigms-1-2024-8x8-inch-acrylic-canvas.jpg',
+    //   totalPieces: 2
+    // }
     // Add more series here as needed
   ];
 </script>

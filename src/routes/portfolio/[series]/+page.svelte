@@ -261,43 +261,43 @@
           imageUrl: '/images/spatial-dialectics-chromatic-tensions-3-2024-40x36-inch-acrylic-canvas.jpg'
         }
       ]
-    },
-
-    'micro-paradigms': {
-      title: 'Micro Paradigms',
-      pieces: [
-        {
-          title: 'Micro Paradigms I',
-          year: '2024',
-          dimensions: {
-            en: '20.3 x 20.3 cm (8 x 8 inches)',
-            fr: '20,3 x 20,3 cm (8 x 8 pouces)',
-            it: '20,3 x 20,3 cm (8 x 8 pollici)'
-          },
-          medium: {
-            en: 'Acrylic on canvas',
-            fr: 'Acrylique sur toile',
-            it: 'Acrilico su tela'
-          },
-          imageUrl: '/images/micro-paradigms-1-2024-8x8-inch-acrylic-canvas.jpg'
-        },
-        {
-          title: 'Micro Paradigms II',
-          year: '2024',
-          dimensions: {
-            en: '20.3 x 20.3 cm (8 x 8 inches)',
-            fr: '20,3 x 20,3 cm (8 x 8 pouces)',
-            it: '20,3 x 20,3 cm (8 x 8 pollici)'
-          },
-          medium: {
-            en: 'Acrylic on canvas',
-            fr: 'Acrylique sur toile',
-            it: 'Acrilico su tela'
-          },
-          imageUrl: '/images/micro-paradigms-2-2024-8x8-inch-acrylic-canvas.jpg'
-        }
-      ]
     }
+
+    // 'micro-paradigms': {
+    //   title: 'Micro Paradigms',
+    //   pieces: [
+    //     {
+    //       title: 'Micro Paradigms I',
+    //       year: '2024',
+    //       dimensions: {
+    //         en: '20.3 x 20.3 cm (8 x 8 inches)',
+    //         fr: '20,3 x 20,3 cm (8 x 8 pouces)',
+    //         it: '20,3 x 20,3 cm (8 x 8 pollici)'
+    //       },
+    //       medium: {
+    //         en: 'Acrylic on canvas',
+    //         fr: 'Acrylique sur toile',
+    //         it: 'Acrilico su tela'
+    //       },
+    //       imageUrl: '/images/micro-paradigms-1-2024-8x8-inch-acrylic-canvas.jpg'
+    //     },
+    //     {
+    //       title: 'Micro Paradigms II',
+    //       year: '2024',
+    //       dimensions: {
+    //         en: '20.3 x 20.3 cm (8 x 8 inches)',
+    //         fr: '20,3 x 20,3 cm (8 x 8 pouces)',
+    //         it: '20,3 x 20,3 cm (8 x 8 pollici)'
+    //       },
+    //       medium: {
+    //         en: 'Acrylic on canvas',
+    //         fr: 'Acrylique sur toile',
+    //         it: 'Acrilico su tela'
+    //       },
+    //       imageUrl: '/images/micro-paradigms-2-2024-8x8-inch-acrylic-canvas.jpg'
+    //     }
+    //   ]
+    // }
   };
 
   const series = seriesData[data.series];
